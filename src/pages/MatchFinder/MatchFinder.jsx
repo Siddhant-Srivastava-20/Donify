@@ -138,3 +138,5 @@ function MatchFinder() {
     </>
   );
 }
+
+export default MatchFinder;
