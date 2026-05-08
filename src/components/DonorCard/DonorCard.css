@@ -1,0 +1,99 @@
+.donor-card{
+  background: white;
+  border: 1px solid #e8e8e8;
+  border-radius: 18px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.donor-top{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.donor-avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #1596e6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.donor-details{
+  display: flex;
+  flex-direction: column;
+}
+
+.donor-name-row{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.donor-name-row h3{
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.donor-blood-group{
+  background: #b31212;
+  color: white;
+  padding: 4px 6px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.donor-city{
+  margin-top: 4px;
+  font-size: 15px;
+  color: #6b7280;
+}
+
+.donor-status{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #16a34a;
+}
+
+.donor-phone{
+  margin-top: 14px;
+  font-size: 16px;
+  color: #6b7280;
+}
+
+.donor-call-btn{
+  border: none;
+  background: #d63b2d;
+  color: white;
+  height: 36px;
+  padding: 0 12px;
+  border-radius: 14px;
+  font-size: 15px;
+  font-weight: 550;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: 0.2s ease;
+}
+
+.donor-call-btn:hover{
+  background: #bf3124;
+}
