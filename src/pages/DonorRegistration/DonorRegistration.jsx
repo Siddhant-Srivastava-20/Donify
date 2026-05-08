@@ -1,11 +1,22 @@
-import React from 'react'
+import { useState } from "react";
+import "./DonorRegistration.css";
 
 const DonorRegistration = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  // Form state - stores user input
+  const [formData, setFormData] = useState({
+    fullName: "",
+    email: "",
+    phone: "",
+    bloodGroup: "",
+    age: "",
+    city: "",
+  });
 
-export default DonorRegistration
+  // Handle input changes
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  }};
