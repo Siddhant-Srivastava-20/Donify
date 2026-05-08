@@ -56,3 +56,12 @@ return (
 
   </div>
 );
+
+<div className="registration-container">
+  <form
+    onSubmit={handleSubmit}
+    className="registration-form"
+  >
+
+  </form>
+</div>
