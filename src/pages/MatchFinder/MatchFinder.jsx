@@ -131,8 +131,10 @@ function MatchFinder() {
                 </div>
               )}
             </div>
+            
           </div>
         )}
+
         <button className="plus">+</button>
       </div>
     </>
