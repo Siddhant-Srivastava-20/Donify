@@ -27,7 +27,7 @@ const DonorCard = ({
             </span>
           </div>
           <p className="donor-city">
-            📍 {city}
+            ❗️ {city}
           </p>
           <p className="donor-status">
             ● Eligible to donate
