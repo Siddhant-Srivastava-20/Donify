@@ -171,6 +171,19 @@ return (
   />
 </div>
 
+<button
+  type="submit"
+  className="submit-btn"
+>
+  Register as Donor
+</button>
+<button
+  type="submit"
+  className="submit-btn"
+>
+  Register as Donor
+</button>
+
   </div>
 );
 
