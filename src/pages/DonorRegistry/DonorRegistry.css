@@ -1,0 +1,65 @@
+.registry{
+  padding: 35px 55px;
+  max-width: 1450px;
+  margin: 70px auto 0;
+  background: #f6f6f7;
+  min-height: 100vh;
+}
+
+.top-banner{
+  width: 100%;
+  background: #fff1ef;
+  border: 1px solid #f1cfc9;
+  border-radius: 18px;
+  padding: 24px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.banner-left{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.banner-icon{
+  font-size: 34px;
+}
+
+.banner-left h3{
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f1f1f;
+}
+
+.banner-left p{
+  margin-top: 4px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.register-btn{
+  border: none;
+  background: #d33a2c;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 999px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.register-btn:hover{
+  background: #bf2f23;
+}
+
+.registry h1{
+  font-size: 34px;
+  font-weight: 800;
+  color: #111827;
+  margin: 0;
+}
+
