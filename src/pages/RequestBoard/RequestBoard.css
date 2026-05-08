@@ -33,3 +33,32 @@
   gap: 10px;
   flex-wrap: wrap;
 }
+
+.filter-btn{
+  border: none;
+  background: #efefef;
+  color: #222;
+
+  height: 40px;
+  padding: 0 18px;
+
+  border-radius: 999px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.filter-btn.active{
+  background: #d33a2c;
+  color: white;
+}
+
+.filter-btn:hover{
+  background: #dfdfdf;
+}
