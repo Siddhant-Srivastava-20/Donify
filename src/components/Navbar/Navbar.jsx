@@ -45,6 +45,7 @@ const Navbar = () => {
           Register as Donor
         </button>
       </ul>
+
       <button className="donor-btn desktop-btn" onClick={handleRegisterClick}>
         Register as Donor
       </button>

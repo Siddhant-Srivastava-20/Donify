@@ -80,4 +80,100 @@
 
 .floating-btn:hover{
   background: var(--primary-red-dark);
+}:root{
+  --primary-red:#cf3b2e;
+  --primary-red-dark:#b83227;
+  --bg-light:#f5f5f5;
+  --text-gray:#6b7280;
+}
+
+.request-board{
+  background: var(--bg-light);
+  min-height: 100vh;
+  margin-top: 65px;
+
+  padding-top: 38px;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.header h1{
+  font-size: 26px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.header p{
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--text-gray);
+}
+
+.filters{
+  margin-top: 22px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filter-btn{
+  border: none;
+  background: #efefef;
+  color: #222;
+
+  height: 40px;
+  padding: 0 18px;
+
+  border-radius: 999px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.filter-btn.active{
+  background: #d33a2c;
+  color: white;
+}
+
+.filter-btn:hover{
+  background: #dfdfdf;
+}
+
+.cards-container{
+  margin-top: 40px;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 28px;
+}
+
+.floating-btn{
+  position: fixed;
+
+  bottom: 28px;
+  right: 28px;
+
+  border-radius: 50%;
+  border: none;
+
+  background: var(--primary-red);
+  color: white;
+
+  font-size: 30px;
+
+  cursor: pointer;
+
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.floating-btn:hover{
+  background: var(--primary-red-dark);
 }
