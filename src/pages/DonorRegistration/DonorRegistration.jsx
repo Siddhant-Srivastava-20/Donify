@@ -96,7 +96,21 @@ return (
   />
 </div>
 
+<div className="form-group">
+  <label htmlFor="phone">
+    Phone Number
+  </label>
 
+  <input
+    type="tel"
+    id="phone"
+    name="phone"
+    value={formData.phone}
+    onChange={handleChange}
+    placeholder="Enter your phone number"
+    required
+  />
+</div>
 
   </div>
 );
