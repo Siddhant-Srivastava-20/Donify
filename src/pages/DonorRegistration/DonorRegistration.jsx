@@ -32,3 +32,11 @@ const handleSubmit = (e) => {
 };
 
 alert("Thank you for registering as a donor! Your information has been saved.");
+setFormData({
+  fullName: "",
+  email: "",
+  phone: "",
+  bloodGroup: "",
+  age: "",
+  city: "",
+});
