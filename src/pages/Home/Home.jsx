@@ -36,9 +36,31 @@ const Home = () => {
                 Register as Donor
               </button>
             </div>
+            <div className="hero-stats">
+              <div className="hero-stat">
+                <div className="hero-stat-icon">🩸</div>
+                <h3>98K+</h3>
+                <p>Total Donors</p>
+              </div>
+              <div className="hero-stat-divider"></div>
+              <div className="hero-stat">
+                <div className="hero-stat-icon">❤️</div>
+                <h3>2.4K+</h3>
+                <p>Active Requests</p>
+              </div>
+              <div className="hero-stat-divider"></div>
+
+              <div className="hero-stat">
+                <div className="hero-stat-icon">👥</div>
+                <h3>1.2K+</h3>
+                <p>Lives Impacted Today</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
     </div>
   )
-} 
+}
+
+export default Home
