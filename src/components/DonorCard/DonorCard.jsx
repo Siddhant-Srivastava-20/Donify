@@ -26,6 +26,15 @@ const DonorCard = ({
               {bloodGroup}
             </span>
           </div>
+          <p className="donor-city">
+            📍 {city}
+          </p>
+          <p className="donor-status">
+            ● Eligible to donate
+          </p>
+          <p className="donor-phone">
+            {phone}
+          </p>
         </div>
       </div>
       <button className="donor-call-btn">
