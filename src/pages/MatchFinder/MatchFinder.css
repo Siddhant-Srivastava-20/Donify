@@ -8,7 +8,7 @@
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 40px;
   color: #222;
 }
 
@@ -18,15 +18,15 @@ h1 span {
 
 .subtitle {
   color: gray;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .card {
   background: white;
-  width: 550px;
+  width: 600px;
   margin: 30px auto;
   padding: 25px;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .row {
@@ -48,7 +48,7 @@ h1 span {
 
 .inputBox input,
 .inputBox select {
-  width: 50%;
+  width: 100%;
   padding: 12px;
   border-radius: 25px;
   border: 1px solid #ddd;
@@ -78,9 +78,9 @@ h1 span {
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
-  transition: 0.1s ease;
+  transition: 0.2s ease;
 }
 
 .btn:hover {
@@ -110,11 +110,11 @@ h1 span {
 
 .plus {
   position: absolute;
-  bottom: 60px;
-  right: 50px;
-  width: 60px;
-  height: 60px;
-  border-radius: 60%;
+  bottom: 30px;
+  right: 30px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
   background: #d32f2f;
   color: white;
   font-size: 25px;
