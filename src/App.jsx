@@ -19,8 +19,8 @@ function App() {
         setData(result[0].requests);
         setDonors(result[0].donors);
       })
-      .catch((errorr) => {
-        console.log(errorr);
+      .catch((error) => {
+        console.log(error);
       });
   }, []);
 
