@@ -28,7 +28,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/requests" onClick={handleLinkClick}>
-            Requests
+            Request
           </Link>
         </li>
         <li>
