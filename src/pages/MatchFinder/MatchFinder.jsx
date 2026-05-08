@@ -22,6 +22,23 @@ function MatchFinder() {
         console.log("Error fetching donors:", error);
       });
   }, []);
-
-
+    const handleFindMatch = () => {
+    setSearched(true);
+    let filtered = allDonors;
+    if (selectedBloodGroup && selectedBloodGroup !== "Select blood group") {
+      filtered = filtered.filter(
+        (donor) =>
+          donor.bloodGroup === selectedBloodGroup ||
+          donor.blood_group === selectedBloodGroup
+      );
+    }
+    if (selectedCity) {
+      filtered = filtered.filter(
+        (donor) =>
+          donor.city?.toLowerCase().includes(selectedCity.toLowerCase()) ||
+          donor.location?.toLowerCase().includes(selectedCity.toLowerCase())
+      );
+    }
+    setFilteredDonors(filtered);
+  };
 }
