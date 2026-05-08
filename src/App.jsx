@@ -8,7 +8,9 @@ import RequestBoard from "./pages/RequestBoard/RequestBoard";
 import DonorRegistry from "./pages/DonorRegistry/DonorRegistry";
 import DonorRegistration from "./pages/DonorRegistration/DonorRegistration";
 
+
 function App() {
+  
   const [data, setData] = useState([]);
   const [donors, setDonors] = useState([]);
   useEffect(() => {
@@ -25,6 +27,7 @@ function App() {
   }, []);
 
   return (
+
     <Router>
       <Navbar />
       <Routes>
@@ -34,6 +37,7 @@ function App() {
         <Route path="/find-match" element={<MatchFinder />} />
         <Route path="/register" element={<DonorRegistration />} />
       </Routes>
+
     </Router>
   );
 }

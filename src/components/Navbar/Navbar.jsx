@@ -17,8 +17,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <Link to="/" className="navbar-logo" onClick={handleLinkClick}>
-        <div className="logo-icon">🩸</div>
-        <span className="logo-text">Donify</span>
+        
       </Link>
       <ul className={`navbar-links ${menuOpen ? "active" : ""}`}>
         <li>
