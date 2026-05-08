@@ -112,6 +112,65 @@ return (
   />
 </div>
 
+<div className="form-group">
+  <label htmlFor="bloodGroup">
+    Blood Group
+  </label>
+
+  <select
+    id="bloodGroup"
+    name="bloodGroup"
+    value={formData.bloodGroup}
+    onChange={handleChange}
+    required
+  >
+    <option value="">
+      Select your blood group
+    </option>
+
+    <option value="O+">O+</option>
+    <option value="O-">O-</option>
+    <option value="A+">A+</option>
+    <option value="A-">A-</option>
+    <option value="B+">B+</option>
+    <option value="B-">B-</option>
+    <option value="AB+">AB+</option>
+    <option value="AB-">AB-</option>
+  </select>
+</div>
+
+<div className="form-group">
+  <label htmlFor="age">
+    Age
+  </label>
+
+  <input
+    type="number"
+    id="age"
+    name="age"
+    value={formData.age}
+    onChange={handleChange}
+    placeholder="Enter your age"
+    required
+  />
+</div>
+
+<div className="form-group">
+  <label htmlFor="city">
+    City
+  </label>
+
+  <input
+    type="text"
+    id="city"
+    name="city"
+    value={formData.city}
+    onChange={handleChange}
+    placeholder="Enter your city"
+    required
+  />
+</div>
+
   </div>
 );
 
