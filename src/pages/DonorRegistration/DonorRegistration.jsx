@@ -24,3 +24,9 @@ const handleChange = (e) => {
     [name]: value,
   });
 };
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  console.log("Donor Registration Data:", formData);
+};
