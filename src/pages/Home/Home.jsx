@@ -30,12 +30,15 @@ const Home = () => {
               >
                 Find Blood Now →
               </button>
+              <button className="donor-btn"
+          onClick={handleRegisterDonor}
+          >
+                Register as Donor
+              </button>
             </div>
           </div>
         </div>
       </section>
     </div>
   )
-}
-
-export default Home
+} 
