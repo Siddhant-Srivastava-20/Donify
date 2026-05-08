@@ -41,4 +41,23 @@ function MatchFinder() {
     }
     setFilteredDonors(filtered);
   };
+    const getAvatarColor = (name) => {
+    const colors = [
+      "#2563eb",
+      "#7c3aed",
+      "#d32f2f",
+      "#ea580c",
+      "#059669",
+      "#0891b2",
+    ];
+    return colors[name.charCodeAt(0) % colors.length];
+  };
+  const getInitials = (name) => {
+    return name
+      .split(" ")
+      .map((word) => word[0])
+      .join("")
+      .toUpperCase()
+      .slice(0, 2);
+  };
 }
