@@ -63,3 +63,82 @@
   margin: 0;
 }
 
+.sub{
+  margin-top: 8px;
+  font-size: 16px;
+  color: #6b7280;
+}
+
+.search{
+  margin-top: 28px;
+  width: 420px;
+  height: 52px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 0 20px;
+  background: white;
+  font-size: 15px;
+  outline: none;
+}
+
+.search::placeholder{
+  color: #9ca3af;
+}
+
+.filters{
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filter-btn{
+  border: none;
+  background: #ececec;
+  color: #222;
+  height: 38px;
+  padding: 0 16px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.filter-btn.active{
+  background: #d33a2c;
+  color: white;
+}
+
+.filter-btn:hover{
+  background: #dfdfdf;
+}
+
+.grid{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.floating-btn{
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #d33a2c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
