@@ -58,3 +58,7 @@ return (
 
   </div>
 );
+
+<form onSubmit={handleSubmit} className="registration-form">
+
+</form>
