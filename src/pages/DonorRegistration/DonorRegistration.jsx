@@ -54,10 +54,8 @@ return (
       </p>
     </div>
 
-  </div>
-);
 
-<div className="registration-container">
+    <div className="registration-container">
   <form
     onSubmit={handleSubmit}
     className="registration-form"
@@ -65,3 +63,43 @@ return (
 
   </form>
 </div>
+
+<div className="form-group">
+  <label htmlFor="fullName">
+    Full Name
+  </label>
+
+  <input
+    type="text"
+    id="fullName"
+    name="fullName"
+    value={formData.fullName}
+    onChange={handleChange}
+    placeholder="Enter your full name"
+    required
+  />
+</div>
+
+<div className="form-group">
+  <label htmlFor="email">
+    Email
+  </label>
+
+  <input
+    type="email"
+    id="email"
+    name="email"
+    value={formData.email}
+    onChange={handleChange}
+    placeholder="Enter your email"
+    required
+  />
+</div>
+
+
+
+  </div>
+);
+
+
+
